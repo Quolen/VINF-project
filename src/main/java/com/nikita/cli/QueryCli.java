@@ -37,7 +37,7 @@ public class QueryCli {
             List<Indexer.SearchResult> results) {
         System.out.println(heading);
         results.stream()
-                .limit(5)
+                .limit(10)
                 .forEach(result -> System.out.printf(
                         "%s | Score: %.6f | %s%n",
                         result.title(),
