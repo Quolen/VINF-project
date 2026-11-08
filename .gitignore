@@ -3,9 +3,8 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 .kotlin
-.idea
+/.idea/
 /data/
-/.idea/runConfigurations/Spark_Parse.xml
 /*.zip
 
 ### IntelliJ IDEA ###
