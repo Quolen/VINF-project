@@ -96,6 +96,7 @@ public class CrawlerEngine {
 
         log.info("Crawl finished. Total downloaded: {}", downloaded);
         statistics.printStatistics();
+        statistics.printTokenizationExamples();
     }
 
     private static String sha256(String input) {
